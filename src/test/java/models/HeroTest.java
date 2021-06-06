@@ -23,15 +23,15 @@ public class HeroTest {
         Hero hero=createNewHero();
         assertEquals(true,hero instanceof Hero);
     }
-//    @Test
-//    public void heroInstantiatesCorrectly() throws Exception {
-//        Hero hero=createNewHero();
-//        assertEquals("Super Girl",hero.getName());
-//        assertEquals(35,hero.getAge());
-//        assertEquals("Flying",hero.getSpecialPowers());
-//        assertEquals("stones",hero.getWeakness());
-//        assertEquals(1,hero.getId());
-//    }
+    @Test
+    public void heroInstantiatesCorrectly() throws Exception {
+        Hero hero=createNewHero();
+        assertEquals("Super Girl",hero.getName());
+        assertEquals(35,hero.getAge());
+        assertEquals("Flying",hero.getSpecialPowers());
+        assertEquals("stones",hero.getWeakness());
+        assertEquals(1,hero.getId());
+    }
 //    @Test
 //    public void HeroesAreCorrectlyReturned_true() throws Exception {
 //        Hero hero = createNewHero();

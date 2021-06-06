@@ -47,12 +47,12 @@ public class SquadTest {
         assertTrue(Squad.getAll().contains(anotherSquad));
     }
 
-//    @Test
-//    public void findByIdReturnsCorrectSquad() throws Exception {
-//        Squad squad= createNewSquad();
-//        assertEquals(1, Squad.findById(squad.getId()).getId());
-//    }
-//
+    @Test
+    public void findByIdReturnsCorrectSquad() throws Exception {
+        Squad squad= createNewSquad();
+        assertEquals(1, Squad.findById(squad.getId()).getId());
+    }
+
 //    @Test
 //    public void findReturnsMoreThanOneSquad() throws Exception {
 //        Squad squad= createNewSquad();

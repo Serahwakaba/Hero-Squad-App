@@ -16,14 +16,14 @@ public class SquadTest {
     public void tearDown() throws Exception {
         Squad.clearEntireSquad();
     }
-//
-//    @Test
-//    public void squadIsCreatedCorrectly_true() throws Exception
-//    {
-//        Squad squad=createNewSquad();
-//        assertEquals(true,squad instanceof Squad);
-//    }
-//
+
+    @Test
+    public void squadIsCreatedCorrectly_true() throws Exception
+    {
+        Squad squad=createNewSquad();
+        assertEquals(true,squad instanceof Squad);
+    }
+
 //    @Test
 //    public void squadInstantiatesCorrectly_true() throws Exception {
 //        Squad squad= createNewSquad();

@@ -39,14 +39,14 @@ public class SquadTest {
         assertEquals(2,Squad.getAll().size());
     }
 
-//    @Test
-//    public void allSquadsContainsAllSquads() throws Exception {
-//        Squad squad= createNewSquad();
-//        Squad anotherSquad= new Squad("Team Super Girl", "Fight Criminals");
-//        assertTrue(Squad.getAll().contains(squad));
-//        assertTrue(Squad.getAll().contains(anotherSquad));
-//    }
-//
+    @Test
+    public void allSquadsContainsAllSquads() throws Exception {
+        Squad squad= createNewSquad();
+        Squad anotherSquad= new Squad("Team Super Girl", "Fight Criminals");
+        assertTrue(Squad.getAll().contains(squad));
+        assertTrue(Squad.getAll().contains(anotherSquad));
+    }
+
 //    @Test
 //    public void findByIdReturnsCorrectSquad() throws Exception {
 //        Squad squad= createNewSquad();

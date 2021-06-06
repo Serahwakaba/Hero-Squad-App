@@ -1,15 +1,15 @@
-//package models;
-//
-//import java.util.ArrayList;
-//import java.util.Objects;
-//
-//public class Hero {
-//    private static ArrayList<Hero> instances = new ArrayList<>();
-//    private String name;
-//    private int age;
-//    private String specialPowers;
-//    private String weakness;
-//    private int id;
+package models;
+
+import java.util.ArrayList;
+import java.util.Objects;
+
+public class Hero {
+    private static ArrayList<Hero> instances = new ArrayList<>();
+    private String name;
+    private int age;
+    private String specialPowers;
+    private String weakness;
+    private int id;
 //
 //    public Hero(String name, int age, String specialPowers, String weakness) {
 //        this.name = name;

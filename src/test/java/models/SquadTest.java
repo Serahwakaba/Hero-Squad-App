@@ -76,20 +76,20 @@ public class SquadTest {
         assertNotEquals(5,Squad.findById(squad6.getId()).getId());
     }
 
-//    @Test
-//    public void updateSquadDetails() {
-//        Squad squad= createNewSquad();
-//        int previousId=squad.getId();
-//        String previousName=squad.getName();
-//        String previousCause = squad.getCause();
-//
-//        squad.update("Team Super Girl","Fight Criminals");
-//
-//        assertEquals(previousId,squad.getId());
-//        assertNotEquals(previousName,squad.getName());
-//        assertNotEquals(previousCause,squad.getCause());
-//    }
-//
+    @Test
+    public void updateSquadDetails() {
+        Squad squad= createNewSquad();
+        int previousId=squad.getId();
+        String previousName=squad.getName();
+        String previousCause = squad.getCause();
+
+        squad.update("Team Super Girl","Fight Criminals");
+
+        assertEquals(previousId,squad.getId());
+        assertNotEquals(previousName,squad.getName());
+        assertNotEquals(previousCause,squad.getCause());
+    }
+
 //    @Test
 //    public void deleteByIdRemovesSquadById_true() throws Exception {
 //        Squad squad=createNewSquad();

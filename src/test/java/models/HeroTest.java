@@ -89,18 +89,18 @@ public class HeroTest {
     }
 
     @Test
-//    public void deleteAll() throws Exception {
-//        Hero hero = createNewHero();
-//        Hero anotherHero = createNewHero();
-//        Hero.clearAllHeroes();
-//        assertEquals(0,Hero.getAll().size());
-//    }
-//
-//    public Hero createNewHero()
-//    {
-//        return new Hero("Super Girl",35,"Flying", "stones");
-//    }
-//}
-//
-//
-//
+    public void deleteAll() throws Exception {
+        Hero hero = createNewHero();
+        Hero anotherHero = createNewHero();
+        Hero.clearAllHeroes();
+        assertEquals(0,Hero.getAll().size());
+    }
+
+    public Hero createNewHero()
+    {
+        return new Hero("Super Girl",35,"Flying", "stones");
+    }
+}
+
+
+

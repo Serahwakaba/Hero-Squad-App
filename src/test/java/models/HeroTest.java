@@ -59,25 +59,25 @@ public class HeroTest {
         Hero anotherHero = new Hero("Super Man",45,"super Speed", "stones");
         assertEquals(2,Hero.findById(anotherHero.getId()).getId());
     }
-//
-//    @Test
-//    public void updateHeroDetails() throws Exception {
-//        Hero hero = createNewHero();
-//        String previousName=hero.getName();
-//        int previousAge=hero.getAge();
-//        String previousSpecialPowers=hero.getSpecialPowers();
-//        String previousWeakness=hero.getWeakness();
-//        int previousId=hero.getId();
-//
-//        hero.update("Super Man",45,"super Speed", "Stones");
-//
-//        assertEquals(previousId,hero.getId());
-//        assertNotEquals(previousName,hero.getName());
-//        assertNotEquals(previousAge, hero.getAge());
-//        assertNotEquals(previousSpecialPowers,hero.getSpecialPowers());
-//        assertNotEquals(previousWeakness,hero.getWeakness());
-//
-//    }
+
+    @Test
+    public void updateHeroDetails() throws Exception {
+        Hero hero = createNewHero();
+        String previousName=hero.getName();
+        int previousAge=hero.getAge();
+        String previousSpecialPowers=hero.getSpecialPowers();
+        String previousWeakness=hero.getWeakness();
+        int previousId=hero.getId();
+
+        hero.update("Super Man",45,"super Speed", "Stones");
+
+        assertEquals(previousId,hero.getId());
+        assertNotEquals(previousName,hero.getName());
+        assertNotEquals(previousAge, hero.getAge());
+        assertNotEquals(previousSpecialPowers,hero.getSpecialPowers());
+        assertNotEquals(previousWeakness,hero.getWeakness());
+
+    }
 //
 //    @Test
 //    public void deleteHeroById() throws Exception {

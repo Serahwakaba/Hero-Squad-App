@@ -32,13 +32,13 @@ public class SquadTest {
         assertEquals("computer illiteracy",squad.getCause());
     }
 
-//    @Test
-//    public void allSquadsAreReturnedCorrectly_true() throws Exception {
-//        Squad squad= createNewSquad();
-//        Squad anotherSquad= new Squad("Team Super Girl", "Fight Criminals");
-//        assertEquals(2,Squad.getAll().size());
-//    }
-//
+    @Test
+    public void allSquadsAreReturnedCorrectly_true() throws Exception {
+        Squad squad= createNewSquad();
+        Squad anotherSquad= new Squad("Team Super Girl", "Fight Criminals");
+        assertEquals(2,Squad.getAll().size());
+    }
+
 //    @Test
 //    public void allSquadsContainsAllSquads() throws Exception {
 //        Squad squad= createNewSquad();

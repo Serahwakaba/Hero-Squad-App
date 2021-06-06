@@ -78,17 +78,17 @@ public class HeroTest {
         assertNotEquals(previousWeakness,hero.getWeakness());
 
     }
-//
-//    @Test
-//    public void deleteHeroById() throws Exception {
-//        Hero hero= createNewHero();
-//        Hero anotherHero = new Hero("Super Man",45,"super Speed", "stones");
-//        hero.deleteHero();
-//        assertEquals(1,hero.getAll().size());
-//        assertEquals(hero.getAll().get(0).getId(),2);
-//    }
-//
-//    @Test
+
+    @Test
+    public void deleteHeroById() throws Exception {
+        Hero hero= createNewHero();
+        Hero anotherHero = new Hero("Super Man",45,"super Speed", "stones");
+        hero.deleteHero();
+        assertEquals(1,hero.getAll().size());
+        assertEquals(hero.getAll().get(0).getId(),2);
+    }
+
+    @Test
 //    public void deleteAll() throws Exception {
 //        Hero hero = createNewHero();
 //        Hero anotherHero = createNewHero();

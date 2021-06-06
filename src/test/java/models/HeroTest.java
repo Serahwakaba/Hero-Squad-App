@@ -32,13 +32,13 @@ public class HeroTest {
         assertEquals("stones",hero.getWeakness());
         assertEquals(1,hero.getId());
     }
-//    @Test
-//    public void HeroesAreCorrectlyReturned_true() throws Exception {
-//        Hero hero = createNewHero();
-//        Hero otherHero = new Hero("Super Man",45,"super Speed", "stones");
-//        assertEquals(2, Hero.getAll().size());
-//    }
-//
+    @Test
+    public void HeroesAreCorrectlyReturned_true() throws Exception {
+        Hero hero = createNewHero();
+        Hero otherHero = new Hero("Super Man",45,"super Speed", "stones");
+        assertEquals(2, Hero.getAll().size());
+    }
+
 //    @Test
 //    public void AllHeroesContainsAllHeroes_true() throws Exception {
 //        Hero hero = createNewHero();

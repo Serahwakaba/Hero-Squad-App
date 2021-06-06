@@ -24,14 +24,14 @@ public class SquadTest {
         assertEquals(true,squad instanceof Squad);
     }
 
-//    @Test
-//    public void squadInstantiatesCorrectly_true() throws Exception {
-//        Squad squad= createNewSquad();
-//        assertEquals(1,squad.getId());
-//        assertEquals("Hero Squad",squad.getName());
-//        assertEquals("computer illiteracy",squad.getCause());
-//    }
-//
+    @Test
+    public void squadInstantiatesCorrectly_true() throws Exception {
+        Squad squad= createNewSquad();
+        assertEquals(1,squad.getId());
+        assertEquals("Hero Squad",squad.getName());
+        assertEquals("computer illiteracy",squad.getCause());
+    }
+
 //    @Test
 //    public void allSquadsAreReturnedCorrectly_true() throws Exception {
 //        Squad squad= createNewSquad();

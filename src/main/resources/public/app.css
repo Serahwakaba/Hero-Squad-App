@@ -1,0 +1,19 @@
+#heading
+{
+text-decoration: underline;
+color:blue;
+}
+body
+{
+background-image: url("../images/j.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container
+{
+background-image: url("../images/j.jpg");
+}
+.jumbotron
+{
+opacity: 0.9;
+}

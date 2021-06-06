@@ -53,12 +53,12 @@ public class HeroTest {
         assertEquals(1, Hero.findById(hero.getId()).getId());
     }
 //
-//    @Test
-//    public void findReturnsCorrectIfMoreThanOneHeroExists() throws Exception {
-//        Hero hero = createNewHero();
-//        Hero anotherHero = new Hero("Super Man",45,"super Speed", "stones");
-//        assertEquals(2,Hero.findById(anotherHero.getId()).getId());
-//    }
+    @Test
+    public void findReturnsCorrectIfMoreThanOneHeroExists() throws Exception {
+        Hero hero = createNewHero();
+        Hero anotherHero = new Hero("Super Man",45,"super Speed", "stones");
+        assertEquals(2,Hero.findById(anotherHero.getId()).getId());
+    }
 //
 //    @Test
 //    public void updateHeroDetails() throws Exception {

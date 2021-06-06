@@ -10,15 +10,15 @@ public class Hero {
     private String specialPowers;
     private String weakness;
     private int id;
-//
-//    public Hero(String name, int age, String specialPowers, String weakness) {
-//        this.name = name;
-//        this.age = age;
-//        this.specialPowers = specialPowers;
-//        this.weakness = weakness;
-//        instances.add(this);
-//        this.id = instances.size();
-//    }
+
+    public Hero(String name, int age, String specialPowers, String weakness) {
+        this.name = name;
+        this.age = age;
+        this.specialPowers = specialPowers;
+        this.weakness = weakness;
+        instances.add(this);
+        this.id = instances.size();
+    }
 //
 //    @Override
 //    public boolean equals(Object o) {

@@ -39,14 +39,14 @@ public class HeroTest {
         assertEquals(2, Hero.getAll().size());
     }
 
-//    @Test
-//    public void AllHeroesContainsAllHeroes_true() throws Exception {
-//        Hero hero = createNewHero();
-//        Hero otherHero = new Hero("Super Man",45,"super Speed", "stones");
-//        assertTrue(Hero.getAll().contains(hero));
-//        assertTrue(Hero.getAll().contains(otherHero));
-//    }
-//
+    @Test
+    public void AllHeroesContainsAllHeroes_true() throws Exception {
+        Hero hero = createNewHero();
+        Hero otherHero = new Hero("Super Man",45,"super Speed", "stones");
+        assertTrue(Hero.getAll().contains(hero));
+        assertTrue(Hero.getAll().contains(otherHero));
+    }
+
 //    @Test
 //    public void findReturnsCorrectHero() throws Exception {
 //        Hero hero = createNewHero();

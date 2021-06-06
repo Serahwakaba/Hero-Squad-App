@@ -47,11 +47,11 @@ public class HeroTest {
         assertTrue(Hero.getAll().contains(otherHero));
     }
 
-//    @Test
-//    public void findReturnsCorrectHero() throws Exception {
-//        Hero hero = createNewHero();
-//        assertEquals(1, Hero.findById(hero.getId()).getId());
-//    }
+    @Test
+    public void findReturnsCorrectHero() throws Exception {
+        Hero hero = createNewHero();
+        assertEquals(1, Hero.findById(hero.getId()).getId());
+    }
 //
 //    @Test
 //    public void findReturnsCorrectIfMoreThanOneHeroExists() throws Exception {

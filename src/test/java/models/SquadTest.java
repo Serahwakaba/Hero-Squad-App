@@ -90,15 +90,15 @@ public class SquadTest {
         assertNotEquals(previousCause,squad.getCause());
     }
 
-//    @Test
-//    public void deleteByIdRemovesSquadById_true() throws Exception {
-//        Squad squad=createNewSquad();
-//        Squad anotherSquad= new Squad("Team Super Girl", "Fight Criminals");
-//        squad.deleteSquad();
-//        assertEquals(1,squad.getAll().size());
-//        assertEquals(squad.getAll().get(0).getId(),2);
-//    }
-//
+    @Test
+    public void deleteByIdRemovesSquadById_true() throws Exception {
+        Squad squad=createNewSquad();
+        Squad anotherSquad= new Squad("Team Super Girl", "Fight Criminals");
+        squad.deleteSquad();
+        assertEquals(1,squad.getAll().size());
+        assertEquals(squad.getAll().get(0).getId(),2);
+    }
+
 //    @Test
 //    public void clearAllClearsSquadList_true() throws Exception {
 //        Squad squad=createNewSquad();
